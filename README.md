@@ -1,4 +1,4 @@
-# ***👾 VIRUZZ-BOT-MD 👾***
+# ***🤖 VIRUZZ-BOT-MD 🤖***
 
 <p align="center">
 <img src="https://github.com/DIEGO-OFC/DORRAT-BOT-MD/blob/main/galeria/dorrat-imagen.jpg" alt="DORRAT-BOT-MD" width="900"/>
