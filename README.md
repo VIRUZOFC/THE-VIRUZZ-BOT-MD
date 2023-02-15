@@ -11,7 +11,7 @@
 `—◉ DUDAS SOBRE EL BOT?, CONTACTANOS ✨`
 
 <a href="http://wa.me/595986674310" target="blank"><img src="https://img.shields.io/badge/VIRUZZ_OFC_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_OFC_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<p><a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_OFC_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></p>
 <a href="http://wa.me/573168068344" target="blank"><img src="https://img.shields.io/badge/KIUBY_COLAB.2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `—◉ 🔥GRUPOS OFICIALES`
