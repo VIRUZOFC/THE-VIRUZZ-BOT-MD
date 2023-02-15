@@ -4,9 +4,9 @@
 <img src="https://github.com/DIEGO-OFC/DORRAT-BOT-MD/blob/main/galeria/dorrat-imagen.jpg" alt="DORRAT-BOT-MD" width="900"/>
 </p>
 
-### `—◉ ❤️BOTS OFICIALES`
+### `《 BOTS OFICIALES 》`
 
-<a href="http://wa.me/50495625729" target="blank"><img src="https://img.shields.io/badge/BOT-OFICIAL.1️⃣-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/50495625729" target="blank"><img src="https://img.shields.io/badge/VIRUZZ BOT-OFICIAL.1️⃣-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 `—◉ DUDAS SOBRE EL BOT?, CONTACTANOS ✨`
 
