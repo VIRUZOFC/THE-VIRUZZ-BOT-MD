@@ -14,6 +14,7 @@
 <p><a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_OFC_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></p>
 <a href="http://wa.me/573168068344" target="blank"><img src="https://img.shields.io/badge/KIUBY_COLAB.2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
+<a href=""><img src="https://github.com/DIEGO-OFC/DORRAT-BOT-MD/blob/main/galeria/dorrat-imagen.jpg" alt="VIRUZZ-BOT-MD" width="300"/> />
 ### `—◉ 🔥GRUPOS OFICIALES`
 
 [![blog](https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
