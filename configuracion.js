@@ -20,7 +20,7 @@ global.owner = [
   //['595986674310']
 
 ] 
-global.suittag = ['593959425714'] 
+global.suittag = ['595986674310'] 
 global.mods = ['595986674310'] 
 global.prems = [] 
 
@@ -81,10 +81,10 @@ global.APIKeys = { // APIKey Here
 global.lenguajeGB = es
 
 /* ______________________________________________ */
-global.creadorname = '𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂'
+global.creadorname = 'VIRUZZ-OFC'
 global.creatorname = creadorname
 global.library = 'BAILEYS-MD'
-global.vs = 'V10'
+global.vs = 'V3'
 global.version = vs
 
 //_______tiempp de stickers______________
@@ -96,31 +96,31 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //------------- Sticker WM -----------
-global.packname = `𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂`
-global.author = `©⏤͟͟͞𝐓𝐇𝐄 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃`
+global.packname = `VIRUZZ-OFC >_`
+global.author = `VIRUZZ-BOT-MD`
 //_______________
-global.wm = '𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓 | 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂'
-global.db3t = `©⏤͟͟͞𝐓𝐇𝐄 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃`
+global.wm = 'VIRUZZ-BOT | VIRUZZ-OFC'
+global.db3t = `THE VIRUZZ-BOT MD`
 global.wm3 = db3t
-global.igfg = '𝑫𝑶𝑹𝑹𝑨𝑻-𝑩𝑶𝑻'
-global.wait = '*[❕] CARGANDO POR FAVOR ESPERA...*'
+global.igfg = 'VIRUZZ-BOT-MD'
+global.wait = '*CARGANDO POR FAVOR ESPERA...*'
 //-------------------
-global.md = 'https://chat.whatsapp.com/JOkFXt2T0kNFN0vkiModTx'
+global.md = 'https://chat.whatsapp.com/L5oWIJp9c5BE8hMNCjJFGV'
 global.dorramd = md
 global.tarje = 'Banesco'
-global.yt = 'http://youtube.com/@diegogameplays82'
+global.yt = 'http://youtube.com/@VIRUZZ-OFC'
 global.youtube = yt
 //Menu
 global.DorrafotoMenu = ['./galería/dorratmini.mp4']
 global.menulinks = [md, yt]
 /* _____________________________________________ */
-global.ag = '━━━ ❎ 𝙰𝙳𝚅𝙴𝚁𝚃𝙴𝙽𝙲𝙸𝙰 ❎ ━━━'
+global.ag = ' ❎ 𝙰𝙳𝚅𝙴𝚁𝚃𝙴𝙽𝙲𝙸𝙰 ❎ '
 global.advertencia = ag
-global.fg = '☆━━━━ ⚠️ 𝙵𝙰𝙻𝙻𝙾 ⚠️ ━━━☆'
+global.fg = ' ⚠️ 𝙵𝙰𝙻𝙻𝙾 ⚠️ '
 global.fallo = fg
-global.mg = '══ ❎ 𝙻𝙾 𝚄𝚂𝙾 𝙼𝙰𝙻 ❎ ══'
+global.mg = '❎ 𝙻𝙾 𝚄𝚂𝙾 𝙼𝙰𝙻 ❎ '
 global.mal = mg
-global.dorre = 'DORRAT-BOT-MD'
+global.dorre = 'VIRUZZ-BOT'
 global.DORRA = dorre
 
 /* Imagenes___________________ */
