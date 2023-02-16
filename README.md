@@ -4,7 +4,7 @@
 <img src="https://github.com/DIEGO-OFC/DORRAT-BOT-MD/blob/main/galeria/dorrat-imagen.jpg" alt="DORRAT-BOT-MD" width="900"/>
 </p>
 
-### `《 BOTS OFICIALES 》`
+### ` BOTS OFICIALES ☑️`
 
 <a href="http://wa.me/524445790238" target="blank"><img src="https://img.shields.io/badge/VIRUZZ BOT-OFICIAL.1️⃣-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
@@ -14,17 +14,19 @@
 <p><a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_OFC_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></p>
 <a href="http://wa.me/573168068344" target="blank"><img src="https://img.shields.io/badge/KIUBY_COLAB.2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `—◉ 🔥GRUPOS OFICIALES`
+### `🔰 GRUPOS OFICIALES 🔰`
 
-[![blog](https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://chat.whatsapp.com/L5oWIJp9c5BE8hMNCjJFGV)  <a href="https://chat.whatsapp.com/L5oWIJp9c5BE8hMNCjJFGV"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
-[![blog](https://img.shields.io/badge/Grupo-Oficial2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://chat.whatsapp.com/GDkNr8qkR1K5VMpXlCLIIQ)  <a href="https://chat.whatsapp.com/GDkNr8qkR1K5VMpXlCLIIQ"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
+
+<a href="https://chat.whatsapp.com/L5oWIJp9c5BE8hMNCjJFGV" target="blank"><img src="https://img.shields.io/badge/Grupo-oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /><a href="https://chat.whatsapp.com/L5oWIJp9c5BE8hMNCjJFGV"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
+
+
+<a href="https://chat.whatsapp.com/GDkNr8qkR1K5VMpXlCLIIQ" target="blank"><img src="https://img.shields.io/badge/Grupo-oficial2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /><a href="https://chat.whatsapp.com/GDkNr8qkR1K5VMpXlCLIIQ"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
 
 ---------
 > GRUPOS OFICIALES DEL BOT PARA LA DIVERSIÓN :)
+> <p>Respetar las reglas </p>
 
-## `[🗂️] Página del bot`
+## `《 Página del bot 》`
 
 <a href="https://sites.google.com/view/dorratbotmd/inicio" target="_blank"> <img src="https://img.shields.io/badge/-pagina aqui-%23E4405F?style=for-the-badge&logo=página aqui&logoColor=black" target="_blank"></a> 
 
