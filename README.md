@@ -26,7 +26,7 @@
 > GRUPOS OFICIALES DEL BOT PARA LA DIVERSIÓN :)
 > <p>Respetar las reglas </p>
 
-## `《 Página del bot 》`
+## `Página del bot 📌 `
 
 <a href="https://sites.google.com/view/dorratbotmd/inicio" target="_blank"> <img src="https://img.shields.io/badge/-pagina aqui-%23E4405F?style=for-the-badge&logo=página aqui&logoColor=black" target="_blank"></a> 
 
