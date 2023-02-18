@@ -59,22 +59,22 @@ rows: [
 {title: lenguajeGB['smsLista21'](), rowId:`${usedPrefix}soloparaelpropietario`},  
 {title: lenguajeGB['smsLista22'](), rowId: `${usedPrefix}hornymenu`}
 ]},{	
-title: comienzo + '🗂️ ENABLE/DISABLE ' + fin,
+title: comienzo + 'ACTIVAR | DESACTIVAR' + fin,
 rows: [
-{title: "│🕋│ENABLE MENU COMPLETO", rowId: `${usedPrefix}enable`},  
-{title: "│✨│ENABLE WELCOME", rowId: `${usedPrefix}enable welcome`},
-{title: "│✨│DISABLE WELCOME", rowId: `${usedPrefix}disable welcome`},
-{title: "│🔗│ENABLE ANTILINK", rowId: `${usedPrefix}enable antilink`},  
-{title: "│🔗│DISABLE ANTILINK", rowId: `${usedPrefix}disable antilink`},
-{title: "│🧬│ENABLE ANTIARABES", rowId: `${usedPrefix}enable antiarabes`},    
+{title: "│✅│ACTIVAR MENÚ COMPLETO", rowId: `${usedPrefix}enable`},  
+{title: "│✅│ACTIVAR WELCOME", rowId: `${usedPrefix}enable welcome`},
+{title: "│✨│DESACTIVAR WELCOME", rowId: `${usedPrefix}disable welcome`},
+{title: "│✅│ACTIVAR ANTILINK", rowId: `${usedPrefix}enable antilink`},  
+{title: "│🔗│DESACTIVAR ANTILINK", rowId: `${usedPrefix}disable antilink`},
+{title: "│✅│ACTIVAR ANTIARABES", rowId: `${usedPrefix}enable antiarabes`},    
 {title: "│🧬│DISABLE ANTIARABES", rowId: `${usedPrefix}disable antiarabes`},
-{title: "│🥵│ENABLE MODOHORNY", rowId: `${usedPrefix}enable modohorny`},
+{title: "│✅│ENABLE MODOHORNY", rowId: `${usedPrefix}enable modohorny`},
 {title: "│🥵│DISABLE MODOHORNY", rowId: `${usedPrefix}disable modohorny`},
-{title: "│⛔│ENABLE RESTRICT", rowId: `${usedPrefix}enable restrict`},
+{title: "│✅│ENABLE RESTRICT", rowId: `${usedPrefix}enable restrict`},
 {title: "│⛔│DISABLE RESTRICT", rowId: `${usedPrefix}disable restrict`},
-{title: "│📵│ENABLE ANTILLAMADA", rowId: `${usedPrefix}enable anticall`},
+{title: "│✅│ENABLE ANTILLAMADA", rowId: `${usedPrefix}enable anticall`},
 {title: "│📵│DISABLE ANTILLAMADA", rowId: `${usedPrefix}disable anticall`},   
-{title: "│🎵│ENABLE AUDIOS", rowId: `${usedPrefix}enable audios`},
+{title: "│✅│ENABLE AUDIOS", rowId: `${usedPrefix}enable audios`},
 {title: "│🎵│DISABLE AUDIOS", rowId: `${usedPrefix}disable audios`}
 ]}]
 
