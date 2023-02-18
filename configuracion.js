@@ -10,7 +10,7 @@ global.owner = [
   ['595986674310', '🔰 VIRUZZ-OFC | CREADOR 🔰', true],
   ['584125778026', '🔰 DIEGO-OFC | COLABORADOR 1🔰', true],
   ['573168068344', '🔰 KIUBY | COLABORADOR 2 🔰', true],
-  //['50246028932', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 4 🔰', true],
+  ['50371310387', '🔰 SAMUEL | COLABORADOR 4 🔰', true],
   //['51936767238'],
   //['50495625729'],
   //['593968585383'],
