@@ -1,4 +1,4 @@
-/*import { createHash } from 'crypto'
+//*import { createHash } from 'crypto'
 let nombre, edad, genero, identidad, pasatiempo, registro, _registro
 
 let handler = async function (m, { conn, text, command, usedPrefix }) {
@@ -250,4 +250,3 @@ export default handler
 
 
 
-/
