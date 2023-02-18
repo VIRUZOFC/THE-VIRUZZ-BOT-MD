@@ -63,19 +63,19 @@ title: comienzo + 'ACTIVAR | DESACTIVAR' + fin,
 rows: [
 {title: "│✅│ACTIVAR MENÚ COMPLETO", rowId: `${usedPrefix}enable`},  
 {title: "│✅│ACTIVAR WELCOME", rowId: `${usedPrefix}enable welcome`},
-{title: "│✨│DESACTIVAR WELCOME", rowId: `${usedPrefix}disable welcome`},
+{title: "│❌│DESACTIVAR WELCOME", rowId: `${usedPrefix}disable welcome`},
 {title: "│✅│ACTIVAR ANTILINK", rowId: `${usedPrefix}enable antilink`},  
-{title: "│🔗│DESACTIVAR ANTILINK", rowId: `${usedPrefix}disable antilink`},
+{title: "│❌│DESACTIVAR ANTILINK", rowId: `${usedPrefix}disable antilink`},
 {title: "│✅│ACTIVAR ANTIARABES", rowId: `${usedPrefix}enable antiarabes`},    
-{title: "│🧬│DISABLE ANTIARABES", rowId: `${usedPrefix}disable antiarabes`},
-{title: "│✅│ENABLE MODOHORNY", rowId: `${usedPrefix}enable modohorny`},
-{title: "│🥵│DISABLE MODOHORNY", rowId: `${usedPrefix}disable modohorny`},
-{title: "│✅│ENABLE RESTRICT", rowId: `${usedPrefix}enable restrict`},
-{title: "│⛔│DISABLE RESTRICT", rowId: `${usedPrefix}disable restrict`},
-{title: "│✅│ENABLE ANTILLAMADA", rowId: `${usedPrefix}enable anticall`},
-{title: "│📵│DISABLE ANTILLAMADA", rowId: `${usedPrefix}disable anticall`},   
-{title: "│✅│ENABLE AUDIOS", rowId: `${usedPrefix}enable audios`},
-{title: "│🎵│DISABLE AUDIOS", rowId: `${usedPrefix}disable audios`}
+{title: "│❌│DESACTIVAR ANTIARABES", rowId: `${usedPrefix}disable antiarabes`},
+{title: "│✅│ACTIVAR MODOHORNY", rowId: `${usedPrefix}enable modohorny`},
+{title: "│❌│DESACTIVAR MODOHORNY", rowId: `${usedPrefix}disable modohorny`},
+{title: "│✅│ACTIVAR RESTRICT", rowId: `${usedPrefix}enable restrict`},
+{title: "│❌│DESACTIVAR RESTRICT", rowId: `${usedPrefix}disable restrict`},
+{title: "│✅│ACTIVAR ANTILLAMADA", rowId: `${usedPrefix}enable anticall`},
+{title: "│❌│DESACTIVAR ANTILLAMADA", rowId: `${usedPrefix}disable anticall`},   
+{title: "│✅│ACTIVAR AUDIOS", rowId: `${usedPrefix}enable audios`},
+{title: "│❌│DESACTIVAR AUDIOS", rowId: `${usedPrefix}disable audios`}
 ]}]
 
 
@@ -114,12 +114,12 @@ text: `
 *┃ 👥 ▢ Usuario(s):*
 *┃ ⚡ ▢ ${Object.keys(global.db.data.users).length}*
 *┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈*
-*╰━━━━━━━━━━━━━━━━━━╯*`, footer: `*${lenguajeGB['smsPareja']()} ➢ ${pareja ? `${name} 😍 ${conn.getName(pareja)}` : `🙂 ${lenguajeGB['smsResultPareja']()}`}*`, 
+*╰━━━━━━━━━━━━━━━━━━╯*`, //footer: `*${lenguajeGB['smsPareja']()} ➢ ${pareja ? `${name} 😍 ${conn.getName(pareja)}` : `🙂 ${lenguajeGB['smsResultPareja']()}`}*`, 
 //${name} ${ucapan()}
 
 title: null,
 
-buttonText: "*selección | selection ✅*", 
+buttonText: "Selecciona aqui", 
 
 sections }
 
@@ -154,29 +154,29 @@ function ucapan() {
 
   const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
 
-  let res = "🌉Buenas madrugadas"
+  let res = "Buenas madrugadas"
 
   if (time >= 4) {
 
-    res = "🌇Buenos Días"
+    res = "Buenos Días"
 
   }
 
   if (time >= 11) {
 
-    res = "🏙️Buenas Tardes"
+    res = "Buenas Tardes"
 
   }
 
   if (time >= 15) {
 
-    res = "🌆Buenas tardes"
+    res = "Buenas tardes"
 
   }
 
   if (time >= 17) {
 
-    res = "🌃Buenas noches"
+    res = "Buenas noches"
 
   }
 
