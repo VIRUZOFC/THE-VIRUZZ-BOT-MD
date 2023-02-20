@@ -33,13 +33,13 @@
 > [⚠️] USAR LOS BOTS SIN SPAM
 
 ### `📄 NOTAS`
-<p>_ El bot esta en face de Desarrollo, es posible que se encuentrenalgunas fallas que se iran solucionando segun vallamos encontrando</p>
-<p>_ Si vas a editar el bot, deja algunos créditos </p>
-<p>_ El equpo de VIRUZZ-BOT no se hara cargo si se encuntra una falla en un bot *NO OFICIAL*</p>
-<p>_ El bot es compatible con Whatsapp normal y business</p>
-<p>_ Las actualizaciones oficiales se harán en este repositorio </p>
-<p>_ El #add y el #kick ocaciona que el numero del bot valla a soporte, por lo tanto sera vajo su responsavilidad activarlo con el comando *#enable restrict*</p>
-<p>_ El equipo de VIRUZZ-BOT, No se hace responsable del uso, números, privacidad y contenido mandado, usados o gestionados por el usuario o el bot.</p
+><p>_ El bot esta en face de Desarrollo, es posible que se encuentrenalgunas fallas que se iran solucionando segun vallamos encontrando</p>
+><p>_ Si vas a editar el bot, deja algunos créditos </p>
+><p>_ El equpo de VIRUZZ-BOT no se hara cargo si se encuntra una falla en un bot *NO OFICIAL*</p>
+><p>_ El bot es compatible con Whatsapp normal y business</p>
+><p>_ Las actualizaciones oficiales se harán en este repositorio </p>
+><p>_ El #add y el #kick ocaciona que el numero del bot valla a soporte, por lo tanto sera vajo su responsavilidad activarlo con el comando *#enable restrict*</p>
+><p>_ El equipo de VIRUZZ-BOT, No se hace responsable del uso, números, privacidad y contenido mandado, usados o gestionados por el usuario o el bot.</p
 
 ## `COLABORADORES DEL BOT` 
 <a href="https://github.com/SinNombre999"><img src="https://github.com/SinNombre999.png" width="100" height="100" alt="SinNombre999"/></a>
