@@ -52,7 +52,7 @@
 
 ## `AGRADECIMIENTOS ESPECIALES`
 
-<a href="https://github.com/DIEGO-OFC/DORRAT-BOT-MD"><img src="https://github.com/DIEGO-OFC.png" width="100" height="100" alt="DIEGO-OFC"/></a>
+<a href="https://github.com/DIEGO-OFC/DORRAT-BOT-MD"><img src="https://github.com/DIEGO-OFC/DORRAT-BOT-MD/blob/main/Menu2.jpg" width="100" height="100" alt="DIEGO-OFC"/></a>
 
 
 > By: VIRUZZ-OFC
