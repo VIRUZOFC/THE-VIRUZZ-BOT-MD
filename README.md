@@ -1,4 +1,4 @@
-# ***🤖 VIRUZZ-BOT-MD 🤖***
+
 
 <p align="center">
 <img src="https://github.com/VIRUZOFC/VIRUZZ-BOT-MD/blob/main/Menu2.jpg" alt="DORRAT-BOT-MD" width="900"/>
@@ -55,4 +55,4 @@
 <a href="https://github.com/DIEGO-OFC/DORRAT-BOT-MD"><img src="https://github.com/DIEGO-OFC/DORRAT-BOT-MD/blob/main/Menu2.jpg" width="100" height="100" alt="DIEGO-OFC"/></a>
 
 
-> By: VIRUZZ-OFC
+>VIRUZZ-BOT-MD By VIRUZZ-OFC
