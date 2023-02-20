@@ -42,14 +42,17 @@
 ><p>_ El equipo de VIRUZZ-BOT, No se hace responsable del uso, números, privacidad y contenido mandado, usados o gestionados por el usuario o el bot.</p
 
 ## `COLABORADORES DEL BOT` 
-<a href="https://github.com/SinNombre999"><img src="https://github.com/SinNombre999.png" width="100" height="100" alt="SinNombre999"/></a>
-<a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="100" height="100" alt="SinNombre999"/></a>
-<a href="https://github.com/VIRUZOFC"><img src="https://github.com/VIRUZOFC.png" width="100" height="100" alt="VIRUZOFC"/></a>
-<a href="https://github.com/darlyn1234"><img src="https://github.com/darlyn1234.png" width="100" height="100" alt="darlyn1234"/></a>
+<a href="https://github.com/DIEGO-OFC"><img src="https://github.com/DIEGO-OFC.png" width="100" height="100" alt="DIEGO-OFC"/></a>
+
 
 
 
 ## `𝐄𝐃𝐈𝐓𝐎𝐑 𝐘 𝐏𝐎𝐑𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓` 
-<a href="https://github.com/DIEGO-OFC"><img src="https://github.com/DIEGO-OFC.png" width="300" height="300" alt="DIEGO-OFC"/></a>
+<a href="https://github.com/VIRUZOFC"><img src="https://github.com/VIRUZOFC.png" width="300" height="300" alt="VIRUZOFC"/></a>
 
-> The Dorrat-bot - MD_ By DIEGO OFC 
+## `AGRADECIMIENTOS ESPECIALES`
+
+<a href="https://github.com/DIEGO-OFC/DORRAT-BOT-MD"><img src="https://github.com/DIEGO-OFC.png" width="100" height="100" alt="DIEGO-OFC"/></a>
+
+
+> By: VIRUZZ-OFC
