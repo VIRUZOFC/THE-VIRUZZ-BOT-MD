@@ -32,7 +32,7 @@ let chatstext = text.replace(who.split("@")[0], '').replace("@", '')
 let users = global.db.data.users
 users[who].banned = true
 await conn.sendButton(m.chat, `*✅ USUARIO BANEADO*\n*NOMBRE:* ${name}\n*NUMERO:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}\n*Razon: ${chatstext}*`,  banu,  pp,[
-['𝙼𝙴𝙽𝚄', `#menusimple`]], m)}
+['Menú', `#menusimple`]], m)}
 handler.help = ['banuser']
 handler.tags = ['owner']
 handler.command = /^banuser$/i
