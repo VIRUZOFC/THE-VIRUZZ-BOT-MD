@@ -44,6 +44,11 @@ let haha = await conn.getFile(`https://api.xteam.xyz/randomimage/orgy?APIKEY=29d
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
  
 if (command == 'yuri') {
+let res = (await axios.get(`https://raw.githubusercontent.com/VIRUZOFC/VIRUZZ-BOT-MD/master/galeria/JSON/yuri.json`)).data  
+let url = await res[Math.floor(res.length * Math.random())]
+conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 siguiente 🔄', `/${command}`]], m)}
+
+if (command == 'tetas') {
 let res = (await axios.get(`https://raw.githubusercontent.com/VIRUZOFC/VIRUZZ-BOT-MD/master/galeria/JSON/tetas.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 siguiente 🔄', `/${command}`]], m)}
