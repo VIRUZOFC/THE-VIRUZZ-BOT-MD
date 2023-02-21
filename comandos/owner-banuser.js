@@ -28,6 +28,8 @@ if (!txt) return conn.reply(m.chat, `${mg}*ESCRIBA EL MOTIVO DEL BANEO*\n` + `*$
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/9b1353deceded7f387713.jpg')
 let banu = `Tal vez el ban los haga reflexionar`
 if (!who) throw `*[❕] ETIQUETA A LA PERSONA QUE SERA BANEADA*`
+if (_user.startsWith(conn.user.jid.split`@`[0]))
+    return m.reply("No puedes banear a la bot :I");
 let chatstext = text.replace(who.split("@")[0], '').replace("@", '')
 let users = global.db.data.users
 users[who].banned = true
