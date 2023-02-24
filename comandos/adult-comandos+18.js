@@ -19,8 +19,9 @@ let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 siguiente 🔄', `/${command}`]], m)}
   
 if (command == 'nsfwbdsm') {
-let haha = await conn.getFile(`https://server-api-rey.herokuapp.com/api/nsfw/bdsm?apikey=apirey`)
-conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
+let res = (await axios.get(`https://raw.githubusercontent.com/VIRUZOFC/VIRUZZ-BOT-MD/master/galeria/JSON/nsfwbdsm.json`)).data  
+let url = await res[Math.floor(res.length * Math.random())]
+conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 siguiente 🔄', `/${command}`]], m)}
   
 if (command == 'nsfwcum') {
 let haha = await conn.getFile(`https://server-api-rey.herokuapp.com/api/nsfw/cum?apikey=apirey`)
