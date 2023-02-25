@@ -40,7 +40,7 @@ if (c == emojis.length) c = 0;
 }
 let end;
 if (a == b && b == c) {
-end = `*Felicidades @${username} ganaste 🎁 +${apuesta + apuesta} diamantes*`
+end = `*Ganaste! 🎁 +${apuesta + apuesta} diamantes*`
 users.limit += apuesta
 } else if (a == b || a == c || b == c) {
 end = `perdiste-${apuesta} diamantes`
