@@ -29,7 +29,7 @@ m.reply(`╭──────────────────
 
 let terminoA = `
 *╭━━━━━━━━━━━━━━━━╾•*
-*┃ ❍ ${ucapan()} ${taguser}❍*
+*┃ ❍ ${ucapan()} ❍*
 *╰━━━━━━━━━━━━━━━━╾•*
 *_Toda la información que se mencione aquí no excluye al Propietario del Bot al uso de ViruzzBot-MD_*
 
