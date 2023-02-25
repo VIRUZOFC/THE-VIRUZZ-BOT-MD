@@ -43,8 +43,8 @@ if (a == b && b == c) {
 end = `*Ganaste! 🎁 +${apuesta + apuesta} diamantes*`
 users.limit += apuesta
 } else if (a == b || a == c || b == c) {
-end = `perdiste-${apuesta} diamantes`
-users.limit -= 1
+end = `Casi, toma +1 diamante`
+users.limit += 1
 } else {
 end = `*❌ Persiste -${apuesta} diamantes*`
 users.limit -= apuesta
