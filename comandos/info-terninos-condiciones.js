@@ -27,11 +27,11 @@ m.reply(`╭──────────────────
 │⏱️ 𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎... 
 ╰──────────────────`)
 
-let terminoA = `
+let termino = `
 *╭━━━━━━━━━━━━━━━━╾•*
-*┃ ❍ ${ucapan()} ❍*
+*┃ ❍ ${ucapan()} ${username}❍*
 *╰━━━━━━━━━━━━━━━━╾•*
-*_Toda la información que se mencione aquí no excluye al Propietario del Bot al uso de DorratBot-MD_*
+*_Toda la información que se mencione aquí no excluye al Propietario del Bot al uso de ViruzzBot-MD_*
 
 
 *_No Somos responsables del desconocimiento que tenga por parte de esta información._* 
@@ -42,9 +42,9 @@ let terminoA = `
 
 3- Es posible que en Número(s) Oficial(es) el Bot no esté Activado las 24 Horas de los 7 días de la Semana, eso no implica que no lo esté o que Propietarios NO OFICIALES puedan Hacerlo._
 
-4- El chat anónimo del comando #start, valga la redundancia no mostrará ningún dato de los Usuarios por parte de DorratBot. Eso no implica que las personas que hagan uso de esta función puedan dar a conocer sus datos. en Número(s) Oficial(es)._
+4- El chat anónimo del comando #start, valga la redundancia no mostrará ningún dato de los Usuarios por parte de ViruzzBot. Eso no implica que las personas que hagan uso de esta función puedan dar a conocer sus datos. en Número(s) Oficial(es)._
 
-5- Los Datos que Obtenga DorratBot en Cuentas Oficiales de Usuarios(as), Grupos y Ajustes del Mismo puede verse Reiniciado, Modificado, y/o Retificado con el fin de que el Bot este en Óptimas Condiciones para su Uso. (Usuarios(as) Pueden Pedir Compensación Por Instagram o por el comando #Reporte. Debe de Presentar Pruebas)._
+5- Los Datos que Obtenga ViruzzBot en Cuentas Oficiales de Usuarios(as), Grupos y Ajustes del Mismo puede verse Reiniciado, Modificado, y/o Retificado con el fin de que el Bot este en Óptimas Condiciones para su Uso. (Usuarios(as) Pueden Pedir Compensación Por Instagram o por el comando #Reporte. Debe de Presentar Pruebas)._
 
 6- NO somos responsable si Hay alteraciones de este Bot no siendo Número(s) Oficial(es) y tengan de uso un Repositorio de GitHub que no corresponda al Oficial, o que implementen Usuarios de Terceros integraciones que comprometan a los(as) Usuarios(as) al utilizar Versiones no Oficiales._
 
@@ -61,7 +61,7 @@ _- Al hacer uso de una solicitud para ingreso de grupo con Una Cuenta Oficial, e
 
 _- Si ha recibido un Comunicado Oficial siendo Número(s) Oficial(es) Mantener el Respeto de la misma manera si recibe un Mensaje sin haber usado un Comando Mantener el Respeto ya que puede en este ultimo caso ser una Persona Real._
 
-_- Las Cuentas Oficiales de DorratBot no se hacen responsable del Uso que usted haga con la función "Sub Bot"._
+_- Las Cuentas Oficiales de ViruzzBot no se hacen responsable del Uso que usted haga con la función "Sub Bot"._
 *CONDICIONES DE USO*
 
 _- NO haga ni intente Llamar o hacer Videollamada al Bot siendo Número(s) Oficial(es) ya que obstaculiza el funcionamiento del BOT._
@@ -70,7 +70,7 @@ _- NO usar el Bot siendo Número(s) Oficial(es) para llevar a cabo alguna acció
 
 _- NO use el comando de SPAM repetidamente, ya que Provocará un Mal funcionamiento en el BOT, tampoco envie al BOT mensajes que puedan comprometer el Funcionamiento de la misma._
 
-_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarán las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de DorratBot._
+_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarán las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de ViruzzBot._
 
 *ESTA ES LA PAGINA OFICIAL DEL BOT*
 *dorrat-bot-oficial.ml*
@@ -79,9 +79,13 @@ _- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodi
 *https://github.com/DIEGO-OFC/DORRAT-BOT-MD*
 
 *CUENTA OFICIAL DE ASISTENCIA - WHATSAPP*
-~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre DorratBot, También puede Comunicarse en Caso de Temas de Colaboración_
-*Wa.me/593959425714*
-*~ Muchas Gracias Por tomarte el tiempo en informate sobre DorratBot
+~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre ViruzzBot, También puede Comunicarse en Caso de Temas de Colaboración_
+*Wa.me/595986674310*
+*- _Cualquier duda, queja, reclamo u opinión acerca del ViruzzBot-MD por favor escriba amablemente al creador u owners del mismo_
+Wa.me/584125778026
+Wa.me/573168068344
+Wa.me/50371310387
+*~ Muchas Gracias Por tomarte el tiempo en informate sobre ViruzzBot
 `.trim()
 
 conn.sendButton(m.chat, terminoA, wm, pp, [
@@ -120,29 +124,29 @@ function ucapan() {
 
   const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
 
-  let res = "🌉Buenas madrugadas"
+  let res = "Buenas madrugadas"
 
   if (time >= 4) {
 
-    res = "🌇Buenos Días"
+    res = "Buenos Días"
 
   }
 
   if (time >= 11) {
 
-    res = "🏙️Buenas Tardes"
+    res = "️Buenas Tardes"
 
   }
 
   if (time >= 15) {
 
-    res = "🌆Buenas tardes"
+    res = "Buenas tardes"
 
   }
 
   if (time >= 17) {
 
-    res = "🌃Buenas noches"
+    res = "Buenas noches"
 
   }
 
