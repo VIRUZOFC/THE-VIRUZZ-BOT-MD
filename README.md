@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img src="https://github.com/VIRUZOFC/VIRUZZ-BOT-MD/blob/main/Menu2.jpg" alt="DORRAT-BOT-MD" width="900"/>
+<img src="https://github.com/VIRUZOFC/VIRUZZ-BOT-MD/blob/main/Menu2.jpg" alt="THE VIRUZZ-BOT-MD" width="900"/>
 </p>
 
 ### ` BOTS OFICIALES ☑️`
