@@ -12,9 +12,9 @@ let apuesta = parseInt(args[0])
 let users = global.db.data.users[m.sender]
 let time = users.lastslot + 10000
 if (new Date - users.lastslot < 10000) throw `*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 ${msToTime(time - new Date())} 𝙿𝙰𝚁𝙰 𝚅𝙾𝙻𝚅𝙴𝚁 𝙰 𝙰𝙿𝙾𝚂𝚃𝙰𝚁*`
-if (apuesta < 5) throw '*[❗] 𝙴𝙻 𝙼𝙸𝙽𝙸𝙼𝙾 𝙿𝙰𝚁𝙰 𝙰𝙿𝙾𝚂𝚃𝙰𝚁 𝙴𝚂 𝙳𝙴 5 𝚇𝙿*'
+if (apuesta < 5) throw '*[❗] El minimo para apostar es de 5 diamantes*'
 if (users.limit < apuesta) {
-throw `*[❗] 𝚃𝚄 𝚇𝙿 𝙽𝙾 𝙴𝚂 𝚂𝚄𝙵𝙸𝙲𝙸𝙴𝙽𝚃𝙴 𝙿𝙰𝚁𝙰 𝙰𝙿𝙾𝚂𝚃𝙰𝚁 𝙴𝚂𝙰 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳, 𝙹𝚄𝙴𝙶𝙰 𝙾𝚃𝚁𝙾𝚂 𝙹𝚄𝙴𝙶𝙾𝚂 𝙾 𝙸𝙽𝚃𝙴𝚁𝙰𝙲𝚃𝚄𝙰 𝙲𝙾𝙽 𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙶𝙰𝙽𝙰𝚁 𝙼𝙰𝚂 𝚇𝙿*`
+throw `*[❗] Tus diamantes no son suficientes para apostar esa cantidad, usa el comando #minardiamantes, para poder obtener mas`
 }
 let emojis = ["⚡", "💎", "🪙"];
 let a = Math.floor(Math.random() * emojis.length);
@@ -40,13 +40,13 @@ if (c == emojis.length) c = 0;
 }
 let end;
 if (a == b && b == c) {
-end = `*𝙶𝙰𝙽𝙰𝚂𝚃𝙴! 🎁 +${apuesta + apuesta} diamantes*`
+end = `*Ganaste 🎁 +${apuesta + apuesta} diamantes*`
 users.limit += apuesta
 } else if (a == b || a == c || b == c) {
 end = `perdiste-${apuesta} diamantes`
 users.limit -= 1
 } else {
-end = `*❌ 𝙿𝙴𝚁𝙳𝙸𝚂𝚃𝙴 -${apuesta} diamantes*`
+end = `*❌ Persiste -${apuesta} diamantes*`
 users.limit -= apuesta
 }
 users.lastslot = new Date * 1
