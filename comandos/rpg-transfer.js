@@ -1,5 +1,5 @@
 const items = [
-    'limit', 'exp', 'dolares'
+    'limit', 'exp', 'dolares',
 ]
 let confirmation = {}
 async function handler(m, { conn, args, usedPrefix, command }) {
