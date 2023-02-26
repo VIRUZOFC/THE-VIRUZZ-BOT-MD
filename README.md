@@ -33,7 +33,7 @@
 > [⚠️] USAR LOS BOTS SIN SPAM
 
 ### `📄 NOTAS`
-><p>_ El bot esta en face de Desarrollo, es posible que se encuentrenalgunas fallas que se iran solucionando segun vallamos encontrando</p>
+><p>_ El bot esta en face de Desarrollo, es posible que se encuentren algunas fallas que se iran solucionando segun vallamos encontrando</p>
 ><p>_ Si vas a editar el bot, deja algunos créditos </p>
 ><p>_ El equpo de VIRUZZ-BOT no se hara cargo si se encuntra una falla en un bot *NO OFICIAL*</p>
 ><p>_ El bot es compatible con Whatsapp normal y business</p>
