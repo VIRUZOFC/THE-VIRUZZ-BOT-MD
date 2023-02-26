@@ -10,7 +10,7 @@ slotdolares (se apuestan dolares 10 minimo)
 
 mucha suerte a los jugadores*`
 
-coonsendButton(m.chat, xd, ejemplo, wm, [['slot', `#slot`]], m)}
+coon.sendButton(m.chat, ejemplo, imagen, wm, [['slot', `#slot`]], m)}
 handler.help = ['ejemploslot']
 handler.command = ['slot']
 export default handler
