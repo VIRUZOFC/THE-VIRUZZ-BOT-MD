@@ -1,5 +1,5 @@
 let handler = async (m, { args, usedPrefix, command }) => {
-let imagen = 'https://telegra.ph/file/8904f74de010d9361cd61.jpg'
+let imagen = "https://telegra.ph/file/8904f74de010d9361cd61.jpg"
 let ejemplo = `*para jugar ablas apuestas debes escribir alguno de estos comandos
 
 slotlimit (se apuestan diamantes 5 minimo )
