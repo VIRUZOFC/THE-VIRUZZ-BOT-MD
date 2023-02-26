@@ -91,6 +91,7 @@ let menu = `
 ┃✪ *FECHA ➺ ${week}, ${date}*
 ┃✪ *USUARIOS | USERS ➺ ${Object.keys(global.db.data.users).length}* 
 ┃😏😏😏😏😏😏😏😏😏
+┃_*NOTA: NO SEAS MUY PAJERO/A*
 ╰━━━━━━〔 𓃠 *${vs}* 〕━━━━━━⬣
 
 ╭━━━━〔 𝙈𝙀𝙉𝙐 *+18* 〕━━━━⬣
@@ -106,33 +107,24 @@ let menu = `
 ┃🔞➺ _${usedPrefix}nsfworgy_
 ┃🔞➺ _${usedPrefix}pies_
 ┃🔞➺ _${usedPrefix}yuri_
-┃🔞➺ _${usedPrefix}yuri2_ 
-┃🔞➺ _${usedPrefix}yaoi_
-┃🔞➺ _${usedPrefix}yaoi2_
 ┃🔞➺ _${usedPrefix}panties_ 
 ┃🔞➺ _${usedPrefix}tetas_ 
 ┃🔞➺ _${usedPrefix}booty_
 ┃🔞➺ _${usedPrefix}ecchi_
-┃🔞➺ _${usedPrefix}furro_
 ┃🔞➺ _${usedPrefix}hentai_
-┃🔞➺ _${usedPrefix}trapito_
 ┃🔞➺ _${usedPrefix}imagenlesbians_
-┃🔞➺ _${usedPrefix}pene_
 ┃🔞➺ _${usedPrefix}porno_
 ┃🔞➺ _${usedPrefix}porno2_
 ┃🔞➺ _${usedPrefix}randomxxx_
 ┃🔞➺ _${usedPrefix}pechos_
 ┃🔞➺ _${usedPrefix}pack_
 ┃🔞➺ _${usedPrefix}pack2_
-┃🔞➺ _${usedPrefix}pack3_
 ┃🔞➺ _${usedPrefix}videoxxx_
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 🥵 𝘾𝙊𝙉𝙏𝙀𝙉𝙄𝘿𝙊 𝘿𝙄𝙉𝘼𝙈𝙄𝘾𝙊 🥵
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃»🥵 _${usedPrefix}pornovideo | pornovid_
-┃»🥵 _${usedPrefix}pornovidgay | pornogayv_
 ┃»🥵 _${usedPrefix}pornolesbivid | pornolesbiv_
-┃»🥵 _${usedPrefix}pornobisexualvid | pornobiv_
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ ❤️‍🔥 𝘽𝙐𝙎𝘾𝘼 𝙔 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼 ❤️‍🔥
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -160,7 +152,7 @@ conn.sendHydrated(m.chat, menu, wm, pp, 'https://chat.whatsapp.com/CrsOmirjZNYKr
 handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
 handler.command = /^(hornymenu)$/i
-//handler.register = true
+handler.register = true
 handler.exp = 70
 export default handler
 
