@@ -13,7 +13,10 @@ let ejemplo = `*para jugar a las apuestas debes escribir alguno de estos comando
 
 ${wm}`
 
-conn.sendButton(m.chat, slot, ejemplo, imagen, [['slot', `#slot`]], m)}
+conn.sendButton(m.chat, slot, ejemplo, imagen, [['Apostar xp', `${usedPrefix}slotxp 1000`], 
+ ['Apostar dolares', `${usedPrefix + command} papel`], 
+ ['Apostar diamantes', `${usedPrefix + command} tijera`] 
+ ], m)}
 handler.help = ['ejemploslot']
 handler.command = ['slot']
 export default handler
