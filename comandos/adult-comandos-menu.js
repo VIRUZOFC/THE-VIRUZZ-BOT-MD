@@ -8,7 +8,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${ag}𝙇𝙊𝙎 𝘾
 const { levelling } = '../lib/levelling.js'
 //let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
 
-let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { exp, limit, level, role, dolares } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 
 let d = new Date(new Date + 3600000)
@@ -82,11 +82,13 @@ let username = conn.getName(who)
 //user.registered = false
 
 let menu = `
-💗 *¡HOLA | HI!* ${username}
 ╭━━〔 *${wm}* 〕━━⬣
 ┃😏😏😏😏😏😏😏😏😏
+┃✪ *INFO DE ${username}*
 ┃✪ *EXPERIENCIA | EXP ➺ ${exp}*
 ┃✪ *NIVEL | LEVEL ➺ ${level}*
+┃✪ *DIAMANTES ➺ ${limit}*
+┃✪ *DÓLARES ➺ ${dolares}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *FECHA ➺ ${week}, ${date}*
 ┃✪ *USUARIOS | USERS ➺ ${Object.keys(global.db.data.users).length}* 
