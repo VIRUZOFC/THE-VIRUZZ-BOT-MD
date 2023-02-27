@@ -14,7 +14,7 @@ const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
 say('THE DORRAT-BOT-MD', {
-font: 'tiny',
+font: 'chrome',
 align: 'center',
 colors: ['#ff8000']})
 say(`CREADO POR DIEGO-OFC`, {
