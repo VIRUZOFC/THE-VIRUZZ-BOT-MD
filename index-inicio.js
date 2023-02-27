@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('THE DORRAT-BOT-MD', {
+say('VIRUZZ-BOT MD', {
 font: 'chrome',
 align: 'center',
 colors: ['#ff8000']})
