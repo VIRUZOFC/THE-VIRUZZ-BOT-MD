@@ -16,7 +16,7 @@ const rl = createInterface(process.stdin, process.stdout)
 say('THE-VIRUZZ BOT', {
 font: 'block',
 align: 'center',
-gradient: ['#000099', 'red', 'purple']})
+gradient: ['green', 'blue']})
 say(`BY VIRUZZ-OFC`, {
 font: 'console',
 align: 'center',
