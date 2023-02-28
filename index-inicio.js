@@ -13,10 +13,10 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('VIRUZZ-BOT-MD', {
-font: 'tiny',
+say('THE-VIRUZZ BOT', {
+font: 'block',
 align: 'center',
-colors: ['#000099']})
+gradient: ['#000099', 'red', 'purple']})
 say(`BY VIRUZZ-OFC`, {
 font: 'console',
 align: 'center',
