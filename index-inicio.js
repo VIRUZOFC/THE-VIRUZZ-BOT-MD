@@ -14,7 +14,7 @@ const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
 say('VIRUZZ-BOT-MD', {
-font: 'pallet',
+font: 'tiny',
 align: 'center',
 colors: ['green']})
 say(`BY VIRUZZ-OFC`, {
