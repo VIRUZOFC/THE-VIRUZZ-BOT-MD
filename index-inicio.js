@@ -16,7 +16,13 @@ const rl = createInterface(process.stdin, process.stdout)
 say('THE\nVIRUZZ\nBOT', {
 font: 'block',
 align: 'center',
-gradient: ['red', 'blue']})
+gradient: {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}})
+
 say(`BY VIRUZZ-OFC`, {
 font: 'console',
 align: 'center',
