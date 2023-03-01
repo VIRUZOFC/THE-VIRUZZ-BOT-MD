@@ -9,7 +9,7 @@ let pp = imagen1
   let txt = stats.slice(0, 15).map(({ name, total, last }, idx) => {
     return `${idx + 1} 
 ${htjava} 𝐂𝐌𝐃 \n□ ${name}
- ${htjava}  𝐇𝐈𝐓 \n□ ${total}`
+ ${htjava}  𝐇𝐈𝐓 \n□ usado ${total} veses`
 }).join`\n\n`
   m.reply(txt)}
 handler.help = ['dashboard']
