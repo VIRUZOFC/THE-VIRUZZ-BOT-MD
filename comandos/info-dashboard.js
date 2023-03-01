@@ -8,8 +8,8 @@ let pp = imagen1
   stats = stats.sort((a, b) => b.total - a.total)
   let txt = stats.slice(0, 15).map(({ name, total, last }, idx) => {
     return `${htki} ${idx + 1} ${htka}
-${htjava} 𝐂𝐌𝐃 ${htjava}\n⮕ ${name}
-${htjava} 𝐇𝐈𝐓 ${htjava}\n⮕ ${total}`
+𝐂𝐌𝐃\n⮕ ${name}
+ 𝐇𝐈𝐓\n⮕ ${total}`
 }).join`\n\n`
   m.reply(txt)}
 handler.help = ['dashboard']
