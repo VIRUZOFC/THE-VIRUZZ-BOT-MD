@@ -38,7 +38,7 @@ description: '^^',
 orderTitle: 'Hi Sis',
 token: '9',
 curreyCode: 'IDR',
-totalCurrencyCode: 'sexo',
+totalCurrencyCode: '>~<',
 totalAmount1000: '1000000',
 sellerJid: 'https://github.com/VIRUZOFC/VIRUZZ-BOT-MD',
 thumbnail: fs.readFileSync('./Menu2.jpg')
