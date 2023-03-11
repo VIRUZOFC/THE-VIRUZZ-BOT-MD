@@ -13,12 +13,12 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `❍ https://github.com/DIEGO-OFC/DORRAT-BOT-MD\n\n*⏰ TIEMPO ACTIVO*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
+  return `□ https://github.com/VIRUZOFC/VIRUZZ-BOT-MD\n\n*TIEMPO ACTIVO:*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
 }
 					const runtime = process.uptime()
 		            const teks = `${kyun(runtime)}`
 					const itsme = `0@s.whatsapp.net`
-					const split = `uwu >//<`
+					const split = `sexo`
 					const rtimebro = {
 					contextInfo: {
 					participant: itsme,
@@ -38,10 +38,10 @@ description: '^^',
 orderTitle: 'Hi Sis',
 token: '9',
 curreyCode: 'IDR',
-totalCurrencyCode: '>〰<',
+totalCurrencyCode: 'sexo',
 totalAmount1000: '1000000',
-sellerJid: 'https://github.com/DIEGO-OFC/DORRAT-BOT-MD',
-thumbnail: fs.readFileSync('./galeria/menudorrat3.jpg')
+sellerJid: 'https://github.com/VIRUZOFC/VIRUZZ-BOT-MD',
+thumbnail: fs.readFileSync('./Menu2.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
 				/*	conn.sendMessage(m.chat, `${teks}`, MessageType.text, rtimebro)*/
