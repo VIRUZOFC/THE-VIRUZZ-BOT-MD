@@ -5,8 +5,8 @@ let pp = 'https://cdn.discordapp.com/attachments/1084545752941998242/10845458135
 let d = Math.floor(Math.random() * 5)
 global.db.data.users[m.sender].bitcoins += d * 1  
 //let hasil = Math.floor(Math.random() * 2000)
-let time = global.db.data.users[m.sender].lastbitcoin + 60000000
-if (new Date - global.db.data.users[m.sender].lastbitcoin < 60000000) throw `*💟 Vuelva en ${msToTime(time - new Date())} para continuar minando ⛏️*`  
+let time = global.db.data.users[m.sender].lastbitcoin + 6000000
+if (new Date - global.db.data.users[m.sender].lastbitcoin < 6000000) throw `*💟 Vuelva en ${msToTime(time - new Date())} para continuar minando ⛏️*`  
 
 conn.sendHydrated(m.chat, `*${minar} ${d} BitCoin*`, wm, pp, md, 'VIRUZZ-BOT', null, null, [
 ['Minar xp', `.minar`],
