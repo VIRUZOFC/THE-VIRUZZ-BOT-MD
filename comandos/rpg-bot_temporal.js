@@ -84,6 +84,8 @@ let data = (await conn.onWhatsApp(jid))[0] || {}
 }
 handler.help = ['temporal', 'tiempo']
 handler.command = ['bottemporal', 'botemporal', 'addbot', 'botadd']
+
+handler.register = true
 export default handler
 
 function msToDate(ms) {
