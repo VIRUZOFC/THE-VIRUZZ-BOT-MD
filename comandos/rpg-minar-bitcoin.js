@@ -5,8 +5,8 @@ let pp = 'https://us.123rf.com/450wm/emojiimage/emojiimage1802/emojiimage1802003
 let d = Math.floor(Math.random() * 5)
 global.db.data.users[m.sender].bitcoin += d * 1  
 //let hasil = Math.floor(Math.random() * 2000)
-let time = global.db.data.users[m.sender].lastbitcoin + 60000000
-if (new Date - global.db.data.users[m.sender].lastbitcoin < 60000000) throw `*💟 Vuelva en ${msToTime(time - new Date())} para continuar minando ⛏️*`  
+let time = global.db.data.users[m.sender].lastbitcoin + 600
+if (new Date - global.db.data.users[m.sender].lastbitcoin < 600) throw `*💟 Vuelva en ${msToTime(time - new Date())} para continuar minando ⛏️*`  
 
 conn.sendHydrated(m.chat, `*${minar} ${d} BitCoin*`, wm, pp, md, 'VIRUZZ-BOT', null, null, [
 ['𝙈𝙞𝙣𝙖𝙧 𝙀𝙓𝙋 ⚡', `.minar`],
