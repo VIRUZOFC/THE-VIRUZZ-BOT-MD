@@ -1,7 +1,3 @@
-
-/********************************************
-*         DORRAT-BOT-MD BY DIEGO-OFC        *
-/********************************************/
 import moment from 'moment-timezone'
 import fs, { promises } from 'fs'
 import fetch from 'node-fetch'
@@ -22,35 +18,27 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
 let imagenMEnu = ['https://i.imgur.com/1qOn8Vw.jpg', 'https://i.imgur.com/vExxeYz.jpg']
-let db = './galeria/menudorrat3.jpg'
+let db = './Menu2.jpg'
 let pp = './galeria/dorratmini.mp4'
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let fsizedoc = '1'.repeat(10)
 let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: yt, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(imagenMEnu.getRandom())).buffer(), sourceUrl: menulinks.getRandom() }}}
-m.reply(`[ 𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 𝐌𝐄𝐍𝐔... ]`)
+m.reply(`[ Enviando el menú... ]`)
 //no me roben la decoracion, no tengo creatividad
 
 let menuA = `
-*╭━━❍𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃❍━━╮*
-*┃ ╭━━━━━━━━━━━━━━━━╮*
-*┃ ┃ ╭┈────────────╮*
-*┃ ┃ │❍  𝐌𝐄𝐍𝐔 ❍*
-*┃ ┃ ╰┈────────────╯*
-*┃ ╰━━━━━━━━━━━━━━━━╯*
-*┣━━━▢ ❤𝐇𝐎𝐋𝐀, ${username}❤*•
-*┃╭━━━━━━━━━━━━━━━━╾•*
-*┃┃  ❍ ${ucapan()} ❍*
-*┃┣━━━━━━━━━━━━━━━━╾•*
+*╭━━《 ○ ${wm} ○ 》━━╮*
+*┃┃ ⋄ ${ucapan()}, ${username}*
 *┃┃ ⋄ CREADOR DEL BOT:  ${creatorname}*
-*┃┃ ⋄ NUMERO DEL CREADOR: wa.me/593959425714 (𝐍𝐎 𝐁𝐎𝐓)*
+*┃┃ ⋄ NUMERO DEL CREADOR:* wa.me/595986674310 *(No bot)*
 *┃┃ ⋄ VERSION » ${vs}*
 *┃┃ ⋄ FECHA » ${week}, ${date}*
 *┃┃ ⋄ TIEMPO ACTIVO » ${uptime}*
 *┃┃ ⋄ LIBRERIA » ${library}*
-*┃┃ ⋄ LENGUAJE » 𝐄𝐒𝐏𝐀𝐍̃𝐎𝐋*
+*┃┃ ⋄ LENGUAJE » ESPAÑOL LATINO*
 *┃┃ ⋄ USUARIOS » ${Object.keys(global.db.data.users).length}*
 *┃╰━━━━━━━━━━━━━━━━╾•*
-*╰━━━╼𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃╾━━━╯*`.trim()
+*╰━━━╼○ ~VIRUZZ-BOT-MD~ ○╾━━━╯*`.trim()
 
 let menuB = `
 *═〔 INFO DEL USUARIO 〕⬣═*
@@ -81,24 +69,21 @@ let menuB = `
 ║ ❒ _${usedPrefix}report *texto*_
 ╚════ ≪ •❈• ≫ ════╝
 
-╔═══ MINECRAFT SERVER  ═══╗ 
+╔═══ PAGINA DE AYUDA ═══╗ 
 ║══════════════
-║ ❒ *IP: nodo5.boxmineworld.com*
-║ ❒ *PUERTO: 4003*
-║ ❒ *BEDROCK Y JAVA*
+║ ❒ *PRÓXIMAMENTE*
 ╚════ ≪ •❈• ≫ ════╝
 
 ╔═════════════╗ 
 ║ *<UNE UN BOT A TU GRUPO/>*
 ║══════════════════
-║ ➱_${usedPrefix}join *link del grupo*_ 
-║ ➱_*minimo 30 miembros*_
+║ ➱_${usedPrefix}bottemporal *link del grupo*
 ╚════ ≪ •❈• ≫ ════╝
 
 ╔═════ JADIBOT 🤖 ═════╗ 
-║ ❒ ︎_${usedPrefix}serbot_
-║ ❒ ︎_${usedPrefix}stop_
-║ ❒ ︎_${usedPrefix}bots_
+║ ❒ ︎_${usedPrefix}serbot
+║ ❒ ︎_${usedPrefix}stop
+║ ❒ ︎_${usedPrefix}bots
 ╚════ ≪ •❈• ≫ ════╝
 
 ╔═════ RPG ═════╗ 
@@ -117,8 +102,7 @@ let menuB = `
 ║ ❒ ${usedPrefix}rob <@tag
 ║ ❒︎ ${usedPrefix}minar
 ║ ❒︎ ${usedPrefix}buy
-║ ❒ ${usedPrefix}minardiamantes 
-║ ❒ ${usedPrefix}minardorracoins 
+║ ❒ ${usedPrefix}minardiamantes  
 ║ ❒︎ ${usedPrefix}transfer <tipo> <cantidad> <@tag
 ║ ❒ ${usedPrefix}verificar
 ║ ❒︎ ${usedPrefix}unreg <numero de serie>
@@ -126,6 +110,7 @@ let menuB = `
 
 ╔═════ GAMES ═════╗ 
 ║ ❒ ${usedPrefix}suitpvp <@tag>
+║ ❒ ${usedPrefix}suerte <cara/cruz>
 ║ ❒ ${usedPrefix}mates <noob / easy / medium / hard / extreme /impossible /impossible2>
 ║ ❒ ${usedPrefix}ppt <papel / tijera /piedra
 ║ ❒ ${usedPrefix}prostituto <nombre / @tag
@@ -143,7 +128,7 @@ let menuB = `
 ║ ❒ ${usedPrefix}love <nombre / @tag
 ║ ❒ ${usedPrefix}doxear <nombre / @tag
 ║ ❒ ${usedPrefix}pregunta <texto
-║ ❒ ${usedPrefix}slot <apuesta
+║ ❒ ${usedPrefix}slot 
 ║ ❒ ${usedPrefix}simi <texto
 ║ ❒ ${usedPrefix}topgays
 ║ ❒ ${usedPrefix}topotakus
@@ -155,38 +140,35 @@ let menuB = `
 ╚════ ≪ •❈• ≫ ════╝
 
 ╔═════ ENABLE/DISABLE ═════╗ 
-║ ❒ ${usedPrefix}enable *welcome*_
-║ ❒ ${usedPrefix}disable *welcome*_
-║ ❒ ${usedPrefix}enable *modohorny*_
-║ ❒ ${usedPrefix}disable *_modohorny*
-║ ❒ ${usedPrefix}enable *antilink*_
-║ ❒ ${usedPrefix}disable *antilink*_
-║ ❒ ${usedPrefix}enable *antilink2*_
-║ ❒ ${usedPrefix}disable *antilink2*_
-║ ❒ ${usedPrefix}enable *detect*_
-║ ❒ ${usedPrefix}disable *detect*_
-║ ❒ ${usedPrefix}enable *audios*_
-║ ❒ ${usedPrefix}disable *audios*_
-║ ❒ ${usedPrefix}enable *autosticker*_
-║ ❒ ${usedPrefix}disable *autosticker*_
-║ ❒ ${usedPrefix}enable *antiviewonce*_ 
-║ ❒ ${usedPrefix}enable *antitraba*_
-║ ❒ ${usedPrefix}disable *antitraba*_
-║ ❒ ${usedPrefix}enable *antiArab*_
-║ ❒ ${usedPrefix}disable *antiArab*_
-║ ❒ ${usedPrefix}enable *simi*_
-║ ❒ ${usedPrefix}disable *simi*_
-║ ❒ ${usedPrefix}enable *modoadmin*_
-║ ❒ ${usedPrefix}disable *modoadmin*_
-║ ❒ ${usedPrefix}enable *temporal*_
-║ ❒ ${usedPrefix}disable *temporal*_
+║ ❒ ${usedPrefix}enable *welcome*
+║ ❒ ${usedPrefix}disable *welcome*
+║ ❒ ${usedPrefix}enable *modohorny*
+║ ❒ ${usedPrefix}disable *modohorny*
+║ ❒ ${usedPrefix}enable *antilink*
+║ ❒ ${usedPrefix}disable *antilink*
+║ ❒ ${usedPrefix}enable *antilink2*
+║ ❒ ${usedPrefix}disable *antilink2*
+║ ❒ ${usedPrefix}enable *detect*
+║ ❒ ${usedPrefix}disable *detect*
+║ ❒ ${usedPrefix}enable *audios*
+║ ❒ ${usedPrefix}disable *audios*
+║ ❒ ${usedPrefix}enable *autosticker*
+║ ❒ ${usedPrefix}disable *autosticker*
+║ ❒ ${usedPrefix}enable *antiviewonce*
+║ ❒ ${usedPrefix}enable *antitraba*
+║ ❒ ${usedPrefix}disable *antitraba*
+║ ❒ ${usedPrefix}enable *antiArab*
+║ ❒ ${usedPrefix}disable *antiArab*
+║ ❒ ${usedPrefix}enable *simi*
+║ ❒ ${usedPrefix}disable *simi*
+║ ❒ ${usedPrefix}enable *modoadmin*
+║ ❒ ${usedPrefix}disable *modoadmin*
 ╚════ ≪ •❈• ≫ ════╝
 
 ┌─「💻𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑」
 ├➢${usedPrefix}facebook <enlace / link / url
 ├➢${usedPrefix}instagram <enlace / link / url
 ├➢${usedPrefix}mediafire <enlace / link / url
-├➢${usedPrefix}instagram <enlace / link / url
 ├➢${usedPrefix}gitclone <enlace / link / url
 ├➢${usedPrefix}tiktok <enlace / link / url
 ├➢${usedPrefix}ytmp3 <enlace / link / url
@@ -206,22 +188,22 @@ let menuB = `
 
 ┌──「🏢𝐆𝐑𝐎𝐔𝐏」─
 ├➢${usedPrefix}add *<número>*
-├➢${usedPrefix}kick *<@tag>*_
-├➢${usedPrefix}kick2 *<@tag>*_
-├➢${usedPrefix}listanum *<texto>*_
-├➢${usedPrefix}kicknum *<texto>*_
+├➢${usedPrefix}kick *<@tag>*
+├➢${usedPrefix}kick2 *<@tag>*
+├➢${usedPrefix}listanum *<texto>*
+├➢${usedPrefix}kicknum *<texto>*
 ├➢${usedPrefix}resetlink
 ├➢${usedPrefix}encuesta *<texto>
 ├➢${usedPrefix}votar *<texto>*
 ├➢${usedPrefix}listadv
 ├➢${usedPrefix}deladvertencia <@tag
 ├➢${usedPrefix}advertencia <@tag
-├➢${usedPrefix}grouptime *<opcion> <tiempo>*_
+├➢${usedPrefix}grouptime *<opcion> <tiempo>*
 ├➢${usedPrefix}grupo <abrir / cerrar
 ├➢${usedPrefix}promote <@tag
 ├➢${usedPrefix}demote <@tag
-├➢${usedPrefix}banchat
-├➢${usedPrefix}unbanchat
+├➢${usedPrefix}banchat (owner option)
+├➢${usedPrefix}unbanchat (owner option)
 ├➢admins *<texto>_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ├➢${usedPrefix}demote <@tag
 ├➢${usedPrefix}infogroup
@@ -237,17 +219,17 @@ let menuB = `
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌──「🛡️𝐆𝐈𝐓𝐇𝐔𝐁」─
-├➢/instalarbot
+├➢/script
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌──「🎑𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒」
-├➢_${usedPrefix}togifaud *<responde a un video>*_
-├➢_${usedPrefix}toimg *<responde a un sticker>*_
-├➢_${usedPrefix}tomp3 *<responde a un video / nota de voz>*_
-├➢_${usedPrefix}toptt *<responde a un video / audio>*_
-├➢_${usedPrefix}tovideo *<responde a un sticker>*_
-├➢_${usedPrefix}tourl *<responde a un video / imagen / audio>*_
-├➢_${usedPrefix}tts es *<texto>*_
+├➢_${usedPrefix}togifaud *<responde a un video>*
+├➢_${usedPrefix}toimg *<responde a un sticker>*
+├➢_${usedPrefix}tomp3 *<responde a un video / nota de voz>*
+├➢_${usedPrefix}toptt *<responde a un video / audio>*
+├➢_${usedPrefix}tovideo *<responde a un sticker>*
+├➢_${usedPrefix}tourl *<responde a un video / imagen / audio>*
+├➢_${usedPrefix}tts es *<texto>*
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌──「📑𝐋𝐎𝐆𝐎𝐒」─
@@ -320,186 +302,171 @@ let menuB = `
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌──「🔞𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 +𝟏𝟖」
-├➢_${usedPrefix}pack_
-├➢_${usedPrefix}pack2_
-├➢_${usedPrefix}pack3_
-├➢_${usedPrefix}videoxxx_
-├➢_${usedPrefix}tiktokxxx_
-├➢_${usedPrefix}tetas_
-├➢_${usedPrefix}booty_
-├➢_${usedPrefix}ecchi_
-├➢_${usedPrefix}furro_
-├➢_${usedPrefix}imagenlesbians_
-├➢_${usedPrefix}panties_
-├➢_${usedPrefix}pene_
-├➢_${usedPrefix}porno_
-├➢_${usedPrefix}randomxxx_
-├➢_${usedPrefix}pechos_
-├➢_${usedPrefix}yaoi_
-├➢_${usedPrefix}yaoi2_
-├➢_${usedPrefix}yuri_
-├➢_${usedPrefix}yuri2_
-├➢_${usedPrefix}trapito_
-├➢_${usedPrefix}hentai_
-├➢_${usedPrefix}nsfwloli_
-├➢_${usedPrefix}nsfworgy_
-├➢_${usedPrefix}nsfwfoot_
-├➢_${usedPrefix}nsfwass_
-├➢_${usedPrefix}nsfwbdsm_
-├➢_${usedPrefix}nsfwcum_
-├➢_${usedPrefix}nsfwero_
-├➢_${usedPrefix}nsfwfemdom_
-├➢_${usedPrefix}nsfwglass_
-├➢_${usedPrefix}hentaipdf *<texto>*_
+├➢_${usedPrefix}pack
+├➢_${usedPrefix}pack2
+├➢_${usedPrefix}videoxxx
+├➢_${usedPrefix}tiktokxxx
+├➢_${usedPrefix}tetas
+├➢_${usedPrefix}booty
+├➢_${usedPrefix}ecchi
+├➢_${usedPrefix}imagenlesbians
+├➢_${usedPrefix}panties
+├➢_${usedPrefix}porno
+├➢_${usedPrefix}randomxxx
+├➢_${usedPrefix}pechos
+├➢_${usedPrefix}yuri
+├➢_${usedPrefix}yuri2
+├➢_${usedPrefix}hentai
+├➢_${usedPrefix}nsfwloli
+├➢_${usedPrefix}nsfworgy
+├➢_${usedPrefix}nsfwfoot
+├➢_${usedPrefix}nsfwass
+├➢_${usedPrefix}nsfwbdsm
+├➢_${usedPrefix}nsfwcum
+├➢_${usedPrefix}nsfwero
+├➢_${usedPrefix}nsfwglass
+├➢_${usedPrefix}hentaipdf *<texto>*
 └────ׂ─ׂ─ׂ─ׂ──
 
 ┌──「𝐄𝐟𝐞𝐜𝐭𝐨𝐬 𝐝𝐞 𝐚𝐮𝐝𝐢𝐨𝐬」
 ├➢*- 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉*
-├➢_${usedPrefix}bass_
-├➢_${usedPrefix}blown_
-├➢_${usedPrefix}deep_
-├➢_${usedPrefix}earrape_
-├➢_${usedPrefix}fast_
-├➢_${usedPrefix}fat_
-├➢_${usedPrefix}nightcore_
-├➢_${usedPrefix}reverse_
-├➢_${usedPrefix}robot_
-├➢_${usedPrefix}slow_
-├➢_${usedPrefix}smooth_
-├➢_${usedPrefix}tupai_
+├➢_${usedPrefix}bass
+├➢_${usedPrefix}blown
+├➢_${usedPrefix}deep
+├➢_${usedPrefix}earrape
+├➢_${usedPrefix}fast
+├➢_${usedPrefix}fat
+├➢_${usedPrefix}nightcore
+├➢_${usedPrefix}reverse
+├➢_${usedPrefix}robot
+├➢_${usedPrefix}slow
+├➢_${usedPrefix}smooth
+├➢_${usedPrefix}tupai
 └────ׂ─ׂ─ׂ─ׂ──
 
 ┌「◾𝐂𝐡𝐚𝐭 𝐚𝐧𝐨𝐧𝐢𝐦𝐨」
-├➢_${usedPrefix}start_
-├➢_${usedPrefix}next_
-├➢_${usedPrefix}leave_
+├➢_${usedPrefix}start
+├➢_${usedPrefix}next
+├➢_${usedPrefix}leave
 └────ׂ─ׂ─ׂ─ׂ──
 
 ┌「🔍𝐁𝐮𝐬𝐜𝐚𝐫」
-├➢_${usedPrefix}server IP \ puerto
 ├➢_${usedPrefix}apkpure <*texto*>
 ├➢_${usedPrefix}covid <*país*>
 ├➢_${usedPrefix}playstore <*texto*>
-├➢_${usedPrefix}stickersearch *<texto>*_
-├➢_${usedPrefix}xnxxsearch *<texto>*_
-├➢_${usedPrefix}animeinfo *<texto>*_
-├➢_${usedPrefix}google *<texto>*_
-├➢_${usedPrefix}letra *<texto>*_
-├➢_${usedPrefix}wikipedia *<texto>*_
-├➢_${usedPrefix}ytsearch *<texto>*_
-├➢_${usedPrefix}apkdone *<texto>*_
-├➢_${usedPrefix}apkgoogle *<texto>*_
-├➢_${usedPrefix}apkmody *<texto>*_
-├➢_${usedPrefix}apkshub *<texto>*_
-├➢_${usedPrefix}happymod *<texto>*_
-├➢_${usedPrefix}hostapk *<texto>*_
-├➢_${usedPrefix}revdl *<texto>*_
-├➢_${usedPrefix}toraccino *<texto>*_
-├➢_${usedPrefix}uapkpro *<texto>*_
+├➢_${usedPrefix}stickersearch *<texto>*
+├➢_${usedPrefix}xnxxsearch *<texto>*
+├➢_${usedPrefix}animeinfo *<texto>*
+├➢_${usedPrefix}google *<texto>*
+├➢_${usedPrefix}letra *<texto>*
+├➢_${usedPrefix}wikipedia *<texto>*
+├➢_${usedPrefix}ytsearch *<texto>*
+├➢_${usedPrefix}revdl *<texto>*
+├➢_${usedPrefix}toraccino *<texto>*
 └────ׂ─ׂ─ׂ─ׂ──
 
 ┌「🎵𝐀𝐔𝐃𝐈𝐎𝐒」
 ├➢_𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)
-├➢_(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
-├➢_Quien es tu sempai botsito 7w7_
-├➢_Te diagnostico con gay_
-├➢_A nadie le importa_
-├➢_Fiesta del admin_
-├➢_Fiesta del administrador_ 
-├➢_Vivan los novios_
-├➢_Feliz cumpleaños_
-├➢_No digas mamadas Mariyein_
-├➢_Noche de paz_
-├➢_Buenos dias_
+├➢_(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+├➢_Quien es tu sempai botsito 7w7
+├➢_Te diagnostico con gay
+├➢_A nadie le importa
+├➢_Fiesta del admin
+├➢_Fiesta del administrador
+├➢_Vivan los novios
+├➢_Feliz cumpleaños
+├➢_No digas mamadas Mariyein
+├➢_Noche de paz
+├➢_Buenos dias
 ├➢_Cambiate a Movistar 
-├➢_Bienvenido_
-├➢_Calla fan de bts_
-├➢_Las reglas del grupo_
-├➢_Buenos tardes_
-├➢_Buenos noches_
-├➢_Audio hentai_
-├➢_Chica lgante_
-├➢_Feliz navidad_
-├➢_Vete a la vrg_
-├➢_Pasa pack Bot_
-├➢_Atencion grupo_
-├➢_Marica quien_
-├➢_Murio el grupo_
-├➢_Oh me vengo_
-├➢_tio que rico_
-├➢_Viernes_
-├➢_Baneado_
-├➢_Sexo_
-├➢_Hola_
-├➢_Un pato_
-├➢_Nyanpasu_
-├➢_Te amo_
-├➢_Yamete_
-├➢_Bañate_
-├➢_Es puto_
-├➢_La biblia_
-├➢_Onichan_
-├➢_Mierda de Bot_
-├➢_Siuuu_
-├➢_Epico_
-├➢_Shitpost_
-├➢_Rawr_
-├➢_UwU_
+├➢_Bienvenido
+├➢_Calla fan de bts
+├➢_Las reglas del grupo
+├➢_Buenos tardes
+├➢_Buenos noches
+├➢_Audio hentai
+├➢_Chica lgante
+├➢_Feliz navidad
+├➢_Vete a la vrg
+├➢_Pasa pack Bot
+├➢_Atencion grupo
+├➢_Marica quien
+├➢_Murio el grupo
+├➢_Oh me vengo
+├➢_tio que rico
+├➢_Viernes
+├➢_Baneado
+├➢_Sexo
+├➢_Hola
+├➢_Un pato
+├➢_Nyanpasu
+├➢_Te amo
+├➢_Yamete
+├➢_Bañate
+├➢_Es puto
+├➢_La biblia
+├➢_Onichan
+├➢_Mierda de Bot
+├➢_Siuuu
+├➢_Epico
+├➢_Shitpost
+├➢_Rawr
+├➢_UwU
 ├➢_:(
-├➢_a_
+├➢_a
 └────ׂ─ׂ─ׂ─ׂ──
 
 
 ┌──「🛠️𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒」─
-├➢_${usedPrefix}inspect *<link del grupo>*_
-├➢_${usedPrefix}ofuscar *<código>*_
-├➢_${usedPrefix}reenviar *<responder a un mensaje>*_
-├➢_${usedPrefix}copy *<texto>*_
-├➢_${usedPrefix}chatgpt *<texto>*_
-├➢_${usedPrefix}morse *<texto>*_
-├➢_${usedPrefix}captura *<link de la página>*_
-├➢_${usedPrefix}horario_
-├➢_${usedPrefix}encuestas texto|texto_
-├➢_${usedPrefix}afk *<motivo>*_
-├➢_${usedPrefix}ocr *<responde a imagen>*_
-├➢_${usedPrefix}tamaño *<cantidad> <responde a imagen / video>*_
-├➢_${usedPrefix}acortar *<enlace / link / url>*_
-├➢_${usedPrefix}calc *<operacion math>*_
-├➢_${usedPrefix}del *<respondre a mensaje del Bot>*_
-├➢_${usedPrefix}whatmusic *<responde a un audio>*_
-├➢_${usedPrefix}qrcode *<texto>*_
-├➢_${usedPrefix}readmore *<texto1| texto2>*_
-├➢_${usedPrefix}spamwa *<numero|texto|cantidad>*_
-├➢_${usedPrefix}styletext *<texto>*_
-├➢_${usedPrefix}traducir *<texto>*_
-├➢_${usedPrefix}nowa *<numero>*_
+├➢_${usedPrefix}inspect *<link del grupo>*
+├➢_${usedPrefix}ofuscar *<código>*
+├➢_${usedPrefix}reenviar *<responder a un mensaje>*
+├➢_${usedPrefix}copy *<texto>*
+├➢_${usedPrefix}chatgpt *<texto>*
+├➢_${usedPrefix}morse *<texto>*
+├➢_${usedPrefix}captura *<link de la página>*
+├➢_${usedPrefix}horario
+├➢_${usedPrefix}encuestas texto|texto
+├➢_${usedPrefix}afk *<motivo>*
+├➢_${usedPrefix}ocr *<responde a imagen>*
+├➢_${usedPrefix}tamaño *<cantidad> <responde a imagen / video>*
+├➢_${usedPrefix}acortar *<enlace / link / url>*
+├➢_${usedPrefix}calc *<operacion math>*
+├➢_${usedPrefix}del *<respondre a mensaje del Bot>*
+├➢_${usedPrefix}whatmusic *<responde a un audio>*
+├➢_${usedPrefix}qrcode *<texto>*
+├➢_${usedPrefix}readmore *<texto1| texto2>*
+├➢_${usedPrefix}spamwa *<numero|texto|cantidad>*
+├➢_${usedPrefix}styletext *<texto>*
+├➢_${usedPrefix}traducir *<texto>*
+├➢_${usedPrefix}nowa *<numero>*
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌──「🌌𝐒𝐓𝐈𝐂𝐊𝐄𝐑」─
-├➢_${usedPrefix}sticker *<responder a imagen o video>*_
-├➢_${usedPrefix}sticker *<enlace / link / url>*_
-├➢_${usedPrefix}s *<responder a imagen o video>*_
-├➢_${usedPrefix}s *<enlace / link / url>*_
-├➢_${usedPrefix}sfull *<responder a imagen o video>*_
-├➢_${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
-├➢_${usedPrefix}scircle *<responder a imagen>*_
-├➢_${usedPrefix}sremovebg *<responder a imagen>*_
-├➢_${usedPrefix}semoji *<tipo> <emoji>*_
-├➢_${usedPrefix}attp *<texto>*_
-├➢_${usedPrefix}attp2 *<texto>*_
-├➢_${usedPrefix}attp3 *<texto>*_
-├➢_${usedPrefix}ttp *<texto>*_
-├➢_${usedPrefix}ttp2 *<texto>*_
-├➢_${usedPrefix}ttp3 *<texto>*_
-├➢_${usedPrefix}ttp4 *<texto>*_
-├➢_${usedPrefix}ttp5 *<texto>*_
-├➢_${usedPrefix}pat *<@tag>*_
-├➢_${usedPrefix}slap *<@tag>*_
-├➢_${usedPrefix}kiss *<@tag>*_
-├➢_${usedPrefix}dado_
-├➢_${usedPrefix}wm *<packname> <author>*_
-├➢_${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
-├➢_${usedPrefix}stickerfilter *<efecto> <responder a imagen>*_ 
+├➢_${usedPrefix}sticker *<responder a imagen o video>*
+├➢_${usedPrefix}sticker *<enlace / link / url>*
+├➢_${usedPrefix}s *<responder a imagen o video>*
+├➢_${usedPrefix}s *<enlace / link / url>*
+├➢_${usedPrefix}sfull *<responder a imagen o video>*
+├➢_${usedPrefix}emojimix *<emoji 1>&<emoji 2>*
+├➢_${usedPrefix}scircle *<responder a imagen>*
+├➢_${usedPrefix}sremovebg *<responder a imagen>*
+├➢_${usedPrefix}semoji *<tipo> <emoji>*
+├➢_${usedPrefix}attp *<texto>*
+├➢_${usedPrefix}attp2 *<texto>*
+├➢_${usedPrefix}attp3 *<texto>*
+├➢_${usedPrefix}ttp *<texto>*
+├➢_${usedPrefix}ttp2 *<texto>*
+├➢_${usedPrefix}ttp3 *<texto>*
+├➢_${usedPrefix}ttp4 *<texto>*
+├➢_${usedPrefix}ttp5 *<texto>*
+├➢_${usedPrefix}pat *<@tag>*
+├➢_${usedPrefix}slap *<@tag>*
+├➢_${usedPrefix}kiss *<@tag>*
+├➢_${usedPrefix}dado
+├➢_${usedPrefix}wm *<packname> <author>*
+├➢_${usedPrefix}stickermarker *<efecto> <responder a imagen>*
+├➢_${usedPrefix}stickerfilter *<efecto> <responder a imagen>*
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┣━━━❰･ *OWNER 👑* ･❱━━━┫
@@ -508,17 +475,16 @@ let menuB = `
 𒅄 ▬▬▬▬ ◆ ▬▬▬▬ 𒅄
 
 ╔══════════════════╗ 
-║ ❒ 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃     
-║ ❒ 𝐁𝐘 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂       
+║ □ ${wm} □
 ╚══════════════════╝
 `.trim()
-await conn.sendButton(m.chat, menuA, menuB,  db, [
-['𝗚𝗥𝗨𝗣𝗢𝗦', `#grupos`],
-['𝗗𝗢𝗡𝗔𝗥', `#donar`]
+await conn.sendButton(m.chat, menuA, menuB,  pp, [
+['GRUPOS', `#grupos`],
+['DONAR', `#donar`]
 ], m)
 const sections = [
 {
-title: `𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍`,
+title: `*INFORMACION*`,
 rows: [
 {title: "/grupos", description: "muestra los grupos del bot", rowId: `${usedPrefix}grupos`},
 {title: "/estado", description: "para ver el estado del bot", rowId: `${usedPrefix}estado`},
@@ -553,29 +519,29 @@ function ucapan() {
 
   const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
 
-  let res = "🌉Buenas madrugadas"
+  let res = "Buenas madrugadas"
 
   if (time >= 4) {
 
-    res = "🌇Buenos Días"
+    res = "Buenos Días"
 
   }
 
   if (time >= 11) {
 
-    res = "🏙️Buenas Tardes"
+    res = "Buenas Tardes"
 
   }
 
   if (time >= 15) {
 
-    res = "🌆Buenas tardes"
+    res = "Buenas tardes"
 
   }
 
   if (time >= 17) {
 
-    res = "🌃Buenas noches"
+    res = "Buenas noches"
 
   }
 
