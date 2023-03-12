@@ -48,10 +48,10 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp)) user.exp = 0
 		if (!('premium' in user)) user.premium = false
 		if (!isNumber(user.joincount)) user.joincount = 2
-                if (!isNumber(user.bitcoins)) user.bitcoins = 10
-                if (!isNumber(user.dolares)) user.dolares = 20   
+                if (!isNumber(user.bitcoins)) user.bitcoins = 5
+                if (!isNumber(user.dolares)) user.dolares = 40  
  	        if (!isNumber(user.tarjeta)) user.tarjeta = 1
-                if (!isNumber(user.limit)) user.limit = 20    	       
+                if (!isNumber(user.limit)) user.limit = 30   	       
                 if (!('registered' in user)) user.registered = false
 		if (!('registroR' in user)) user.registroR = false
 		if (!('registroC' in user)) user.registroC = false    
@@ -774,9 +774,9 @@ export async function handler(chatUpdate) {
                     leleg: 0,
                     level: 0, 
                     tarjeta: 1,
-                    bitcoins: 10,
-                    dolares: 20,
-                    limit: 20,
+                    bitcoins: 5,
+                    dolares: 50,
+                    limit: 30,
                     limitjoinfree: 1,
                     dolaresjoinfree: 1,
                     lion: 0,
@@ -1206,7 +1206,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && comandos.limit && global.db.data.users[m.sender].limit < comandos.limit * 1) {
-                    this.reply(m.chat, `${ag}\n𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝘿𝙄𝘼𝙈𝘼𝙉𝙏𝙀𝙎. 💎 𝙋𝙐𝙀𝘿𝙀 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy*\n\n𝙄𝙏 𝙃𝘼𝙎 𝙉𝙊 𝘿𝙄𝘼𝙈𝙊𝙉𝘿𝙎. 💎 𝙔𝙊𝙐 𝘾𝘼𝙉 𝘽𝙐𝙔 𝙒𝙄𝙏𝙃 𝙏𝙃𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 *${usedPrefix}buy*`, m)
+                    this.reply(m.chat, `${ag}\n*No tiene diamantes. 💎 *puede conseguir con el comando ${usedPrefix}minardiamantes*`, m)
                     continue // Limit habis
                 }
 if (!isPrems && comandos.dolares && global.db.data.users[m.sender].dolares < comandos.dolares * 1) {
@@ -1215,7 +1215,7 @@ if (!isPrems && comandos.dolares && global.db.data.users[m.sender].dolares < com
 
 }
 if (!isPrems && comandos.bitcoins && global.db.data.users[m.sender].bitcoins < comandos.bitcoins * 1) {
-                    this.reply(m.chat, `${ag}\n\n*No tiene bitcoins* 🏵️\n\n *puede conseguir Bitcoins 🏵️ comprando con #buy bitcoins [cantidad]*`, m)
+                    this.reply(m.chat, `${ag}\n\n*No tiene bitcoins* 🪙\n\n *puede conseguir Bitcoins 🪙 con el comando ${usedPrefix}minarbitcoin*`, m)
                     continue 
 }
                 if (comandos.level > _user.level) {
@@ -1276,9 +1276,9 @@ if (!isPrems && comandos.bitcoins && global.db.data.users[m.sender].bitcoins < c
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' 𝘿𝙄𝘼𝙈𝘼𝙉𝙏𝙀(𝙎) 💎 𝙐𝙎𝘼𝘿𝙊(𝙎)')
+                        m.reply(+m.limit + ' Diamantes 💎 usados')
                     if (m.bitcoins)
-                        m.reply(+m.bitcoins + ' Bitcoins  🏵️ Usados')
+                        m.reply(+m.bitcoins + ' Bitcoins  🪙 Usados')
                  if (m.dolares)
                         m.reply(+m.dolares + ' DOLARES 💵 USADOS')
               
