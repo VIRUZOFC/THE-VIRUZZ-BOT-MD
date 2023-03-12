@@ -47,6 +47,7 @@ handler.help = ['sticker']
 handler.tags = ['sticker']
 handler.command = ['s', 'sticker', 'stiker'] 
 
+handler.limit = 1
 export default handler
 
 const isUrl = (text) => {
