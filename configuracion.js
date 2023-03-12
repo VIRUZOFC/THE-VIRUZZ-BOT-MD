@@ -21,7 +21,7 @@ global.owner = [
 
 ] 
 global.suittag = ['595986674310'] 
-global.mods = ['595986674310'] 
+global.mods = ['51933999143'] 
 global.prems = [] 
 
 global.APIs = { // API Prefix
@@ -84,7 +84,7 @@ global.lenguajeGB = es
 global.creadorname = 'VIRUZZ-OFC'
 global.creatorname = creadorname
 global.library = 'BAILEYS-MD'
-global.vs = 'V3'
+global.vs = 'beta V3'
 global.version = vs
 
 //_______tiempp de stickers______________
