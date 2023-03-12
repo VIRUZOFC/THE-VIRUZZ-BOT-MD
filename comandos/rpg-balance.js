@@ -8,7 +8,8 @@ let bank = `╭━━━━━━ 𝐁𝐀𝐍𝐂𝐎 🏦 ━━━╾•
 ❍ *Nombre:* ${name}
 ❍ *Diamantes:* ${global.db.data.users[who].limit} 💎
 ❍ *Tokens:* ${global.db.data.users[who].joincount} ☯️
-❍ *Dólares:* $${global.db.data.users[who].dolares} 💸
+❍ *Dólares:* ${global.db.data.users[who].dolares} 💸
+○ *BitCoin:* ${global.db.data.users[who].bitcoin} 🪙
 ╰━━━━━━━━━━━━━━━━╾•`.trim()
 let bank2 = `
 *𝙽𝙾𝚃𝙰:* 
