@@ -1,6 +1,6 @@
 let media = './Menu2.jpg'
 let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
-*Hola ${username}, te invito a unirte a los grupos oficiales para  enterarte de las actualizaciones, conocer mas sobre el bot y interactuar con la comunidad*
+*Hola Usuario, te invito a unirte a los grupos oficiales para  enterarte de las actualizaciones, conocer mas sobre el bot y interactuar con la comunidad*
 
 ╭━━*○《 ~${wm}~ 》○*━━╮
 ┃ 
