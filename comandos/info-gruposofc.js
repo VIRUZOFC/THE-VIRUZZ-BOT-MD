@@ -8,7 +8,7 @@ let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
 ┃ ┃ ¤ Respeta las reglas de los grupos ¤
 ┃ ┃ 
 ┃ 
-╰━━━*[ Grupos oficiales ]*━━━╯
+╰━━━[ *Grupos oficiales* ]━━━━━━╯
 
 ╭┈───────────────╮
 │ *COMUNIDAD:* 
@@ -18,7 +18,7 @@ let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
 ╭━━━━━━━━━━━━━━━━━━━╾•
 ┃ *GRUPO OFICIAL 1:*
 ┃ https://chat.whatsapp.com/L5oWIJp9c5BE8hMNCjJFGV 
-┃ *GRUPO DE ENLACES:
+┃ *GRUPO DE ENLACES:*
 ┃ https://chat.whatsapp.com/JpICImUpzdX7uO2EHJg2r2 
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 `.trim(), wm, media, [['MENÚ', '#menu']], m)
