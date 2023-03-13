@@ -29,5 +29,6 @@ await await conn.sendMessage(m.chat, {
 conn.reply(m.chat,`*[❕] ERROR, INTENTA DE NUEVO*`)
 }}
 handler.command = ['openai', 'ia', 'robot']
-handler.dolares = 4
+
+handler.dolares = 5
 export default handler
