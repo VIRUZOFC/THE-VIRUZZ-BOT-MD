@@ -8,7 +8,7 @@ let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
 ┃ ┃ ¤ Respeta las reglas de los grupos ¤
 ┃ ┃ 
 ┃ 
-╰━━━[ *Grupos oficiales* ]━━━━━━╯
+╰━━━━━━[ *Grupos oficiales* ]━━━━━━╯
 
 ╭┈───────────────╮
 │ *COMUNIDAD:* 
