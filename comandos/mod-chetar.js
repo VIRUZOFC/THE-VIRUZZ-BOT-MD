@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
         conn.reply(m.chat, `*éxito, ahora tiene todo ilimitado ✅*`, m)
         global.db.data.users[m.sender].dolares = Infinity
         global.db.data.users[m.sender].limit = Infinity
-        global.db.data.users[m.sender].level = Infinity
+        global.db.data.users[m.sender].level = 4000
         global.db.data.users[m.sender].bitcoins = Infinity
 }
 handler.help = ['cheat']
