@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
         global.db.data.users[m.sender].bitcoins = Infinity
 }
 handler.help = ['cheat']
-handler.tags = ['owner']
+handler.tags = ['mod']
 handler.command = /^(chetar|chetado)$/i
 handler.rowner = false
 handler.mods = true
