@@ -226,7 +226,7 @@ export async function handler(chatUpdate) {
               if (!isNumber(user.jagung)) user.jagung = 0
               if (!isNumber(user.jagungbakar)) user.jagungbakar = 0
               if (!isNumber(user.jeruk)) user.jeruk = 0
-              if (!isNumber(user.joindorracoins)) user.joindorracoins = 1
+              if (!isNumber(user.joindolares)) user.joindolares = 1
               if (!isNumber(user.joinlimit)) user.joinlimit = 1
               if (!isNumber(user.judilast)) user.judilast = 0
               if (!isNumber(user.kaleng)) user.kaleng = 0
