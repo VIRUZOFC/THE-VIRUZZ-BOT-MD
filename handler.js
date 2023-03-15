@@ -355,9 +355,9 @@ export async function handler(chatUpdate) {
               if (!isNumber(user.leleg)) user.leleg = 0
               if (!isNumber(user.level)) user.level = 0
               if (!isNumber(user.tarjeta)) user.tarjeta = 1
-              if (!isNumber(user.dolares)) user.dolares = 20
-              if (!isNumber(user.bitcoins)) user.bitcoins = 10
-              if (!isNumber(user.limit)) user.limit = 20
+              if (!isNumber(user.dolares)) user.dolares = 50
+              if (!isNumber(user.bitcoins)) user.bitcoins = 1
+              if (!isNumber(user.limit)) user.limit = 30
               if (!isNumber(user.limitjoinfree)) user.limitjoinfree = 1
               if (!isNumber(user.dolaresjoinfree)) user.dolaresjoinfree = 1
               if (!isNumber(user.lion)) user.lion = 0
@@ -721,7 +721,7 @@ export async function handler(chatUpdate) {
                     lastcrusade: 0,
                     lastdaang: 0,
                     lastdagang: 0,
-                    lastdorracoins: 0,
+                    lastdolares: 0,
 		    lastdiamantes: 0,
                     lastduel: 0,
                     lastdungeon: 0,
