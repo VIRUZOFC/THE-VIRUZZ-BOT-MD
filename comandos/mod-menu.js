@@ -45,10 +45,13 @@ let uptime = clockString(_uptime)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let pp = imagen4
 let db = `╔═[ *${wm}* ]
-║ *Hola mod ${taguser}*
+║ *Menú ~MODERADOR~ de: ${taguser}*
 ║
 ║ *TIEMPO ACTIVO:* ${uptime}
-║ 
+║ *VERSION:* ${vs}
+║ *FECHA:* ${week}, ${date}
+║ *LIBRERIA:* ${library}
+║  *USUARIOS:* ${Object.keys(global.db.data.users).length}
 ╚════════════════`.trim()
 let infobt = `
  *≡ S E R V E R*
@@ -59,10 +62,10 @@ ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.m
 
 ╔═══════[ *~COMANDOS~*] ═════
 ║
-║
-║
-║
-║
+║○|
+║○|- ${usedPrefix}chetar
+║○|
+║○|
 ║
 ╚════════════════════
 `.trim()
