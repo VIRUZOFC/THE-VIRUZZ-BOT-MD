@@ -49,9 +49,8 @@ let db = `╔═[ *${wm}* ]
 ║
 ║ *TIEMPO ACTIVO:* ${uptime}
 ║ *VERSION:* ${vs}
-║ *FECHA:* ${week}, ${date}
 ║ *LIBRERIA:* ${library}
-║  *USUARIOS:* ${Object.keys(global.db.data.users).length}
+║ *USUARIOS:* ${Object.keys(global.db.data.users).length}
 ╚════════════════`.trim()
 let infobt = `
  *≡ S E R V E R*
