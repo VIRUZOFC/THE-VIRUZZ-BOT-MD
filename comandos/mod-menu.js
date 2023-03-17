@@ -60,12 +60,12 @@ let infobt = `
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 
 ╔═══════[ *~COMANDOS~*] ═════
-║○|
-║○| - ${usedPrefix}chetar
-║○|
-║○|
-║○|
-║○|
+║○ |
+║○ | - ${usedPrefix}chetar
+║○ |
+║○ |
+║○ |
+║○ |
 ╚════════════════════
 `.trim()
   let buttons = [{ buttonId: `#menu`, buttonText: { displayText: "𝙼𝙴𝙽𝚄" }, type: 1 } ]
