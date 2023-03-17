@@ -45,7 +45,7 @@ let uptime = clockString(_uptime)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let pp = imagen4
 let db = `╔═[ *${wm}* ]
-║ * Hola mod ${taguser}*
+║ *Hola mod ${taguser}*
 ║
 ║ *TIEMPO ACTIVO:* ${uptime}
 ║ 
@@ -64,7 +64,7 @@ ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.m
 ║
 ║
 ║
-╚════════════════
+╚═══════════════════════
 `.trim()
   let buttons = [{ buttonId: `#menu`, buttonText: { displayText: "𝙼𝙴𝙽𝚄" }, type: 1 } ]
   let buttonMessage = { 
